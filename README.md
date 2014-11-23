@@ -3,4 +3,4 @@ cppPrimer
 
 Practice in cppPrimer
 
-Practice answer for cppPrimer(5th editon)
+Answers for practice in cppPrimer(5th editon)

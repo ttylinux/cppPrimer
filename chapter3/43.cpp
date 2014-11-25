@@ -32,9 +32,6 @@ for(int (*p) : ia)
 
 }
 
- 
-   
-
 // method two 
 cout << "method two " << endl;
 for( int i = 0; i < rowCnt; i++)

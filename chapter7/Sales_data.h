@@ -22,4 +22,6 @@ struct Sales_data{
 istream &read(istream &is, Sales_data &item);
 ostream &print(ostream &os, const Sales_data &item);
 
+Sales_data add(const Sales_data &lhs, const Sales_data &rhs);
+
 #endif

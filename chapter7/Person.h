@@ -13,6 +13,9 @@ using std::endl;
 class Person{
 	
 	public:
+	
+	Person(const string iName, const string iAddr):name(iName),addr(iAddr){}
+	
 	//const 表明，调用该函数时，不修改当前对象的内容
 	string getName() const{
 		

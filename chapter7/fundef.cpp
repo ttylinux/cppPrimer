@@ -1,5 +1,7 @@
 #include<iostream>
 #include"Sales_data.h"
+
+
 istream &read(istream &is, Sales_data &item){
 	
 	double price = 0;
@@ -11,7 +13,7 @@ istream &read(istream &is, Sales_data &item){
 
 ostream &print(ostream &os, const Sales_data &item){
 	
-	os << item.bookNo<<"  " << item.units_sold << "  " << item.revenue;
+	os << item.bookNo<<"  " << item.units_sold << "  " << item.revenue << std::endl;
 	return os;
 }
 

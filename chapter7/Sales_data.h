@@ -12,11 +12,13 @@ using std::string;
 class  Sales_data{
     
  
+
+ 
+ private:
+ 
  friend istream &read(istream &is, Sales_data &item);
  friend ostream &print(ostream &os, const Sales_data &item);
  friend Sales_data add(const Sales_data &lhs, const Sales_data &rhs);
- 
- private:
  
    std::string bookNo;
    unsigned units_sold = 0;

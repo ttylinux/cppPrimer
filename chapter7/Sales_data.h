@@ -9,12 +9,21 @@ using std::string;
 
 
 
-struct Sales_data{
-
+class  Sales_data{
+    
+ 
+ friend istream &read(istream &is, Sales_data &item);
+ friend ostream &print(ostream &os, const Sales_data &item);
+ friend Sales_data add(const Sales_data &lhs, const Sales_data &rhs);
+ 
+ private:
+ 
    std::string bookNo;
    unsigned units_sold = 0;
    double revenue = 0.0;
 
+ public:
+   
    Sales_data() = default;
    Sales_data(const string &s ) : bookNo(s){}
    Sales_data(const string &s, unsigned n, double p):

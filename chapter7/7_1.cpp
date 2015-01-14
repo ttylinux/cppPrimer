@@ -15,9 +15,8 @@ int main(){
 	  Sales_data trans;
 	  while(read(cin,trans)){
 		  
-		  if(total.bookNo == trans.bookNo){
-			  total.units_sold += trans.units_sold;
-			  total.revenue += trans.revenue;
+		  if(total.isbn() == trans.isbn()){
+			 total = total.combine(trans);
 			  
 		  }else{
 			  

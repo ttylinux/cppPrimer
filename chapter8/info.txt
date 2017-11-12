@@ -1,0 +1,4 @@
+one two three five 
+six seven eight nine ten
+This is a info file
+Today is good.
